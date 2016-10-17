@@ -7,6 +7,6 @@ class CompareImagesTraitTest extends PHPUnit_Framework_TestCase
     public function testImageStringInit()
     {
         $compareImages = new CompareImages();
-        $image = $compareImages->initImage('');
+        $image = $compareImages->callProtectedMethod('initImage', ['test/test.jpg']);
     }
 }

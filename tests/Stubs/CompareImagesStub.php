@@ -19,7 +19,7 @@ class CompareImagesStub extends PHPUnit_Framework_TestCase
      */
     public function callProtectedMethod($methodName, array $args = [])
     {
-        $reflection = new ReflectionClass(get_class($this));
+        $reflection = new \ReflectionClass(get_class($this));
         $method = $reflection->getMethod($methodName);
         $method->setAccessible(true);
         return $method->invokeArgs($this, $args);
