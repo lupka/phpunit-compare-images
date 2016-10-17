@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lupka\\PHPUnitCompareImages\\": "src/",
-            "Lupka\\PHPUnitCompareImages\\": "tests/"
+            "Lupka\\PHPUnitCompareImages\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
+            "Lupka\\PHPUnitCompareImages\\": "tests/"
         }
     }
 }
