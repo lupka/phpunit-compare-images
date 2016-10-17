@@ -1,0 +1,27 @@
+{
+    "name": "lupka/phpunit-compare-images",
+    "description": "PHPUnit assertions for comparing image similarity.",
+    "license": "MIT",
+    "type": "package",
+    "keywords": ["phpunit", "imagemagick", "images", "compare"],
+    "authors": [
+        {
+            "name": "Alex Chalupka",
+            "email": "alex@alexchalupka.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8",
+        "ext-imagick": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lupka\\PHPUnitCompareImages\\": "src/",
+            "Lupka\\PHPUnitCompareImages\\": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+}
