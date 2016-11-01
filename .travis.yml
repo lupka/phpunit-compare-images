@@ -13,4 +13,8 @@ matrix:
         - php: nightly
         - php: hhvm
 
+before_script:
+  - composer self-update
+  - composer install --dev
+
 script: phpunit
