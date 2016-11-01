@@ -2,7 +2,6 @@
 
 namespace Lupka\PHPUnitCompareImages;
 
-use Imagick;
 use Exception;
 
 trait CompareImagesTrait
