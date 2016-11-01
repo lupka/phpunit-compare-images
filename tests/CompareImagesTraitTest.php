@@ -2,8 +2,6 @@
 
 use Lupka\PHPUnitCompareImages\Stubs\CompareImagesStub as CompareImages;
 
-use Imagick;
-
 class CompareImagesTraitTest extends PHPUnit_Framework_TestCase
 {
     public function testImageStringInit()
