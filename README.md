@@ -2,6 +2,8 @@
 
 PHPUnit assertions for assessing image similarity.
 
+**IMPORTANT:** You may run into issues comparing different-sized images depending on your setup. I haven't been able to assess for certain what the issue is, but comparing different sized images works fine for me locally on OSX, but my tests fail in Travis CI if I use images with different sizes.
+
 [![Travis](https://img.shields.io/travis/lupka/phpunit-compare-images.svg)](https://travis-ci.org/lupka/phpunit-compare-images)
 [![Packagist](https://img.shields.io/packagist/v/lupka/phpunit-compare-images.svg)](https://packagist.org/packages/lupka/phpunit-compare-images)
 [![[]()icense](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
