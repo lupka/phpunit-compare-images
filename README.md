@@ -2,6 +2,10 @@
 
 PHPUnit assertions for assessing image similarity.
 
+[![Travis](https://img.shields.io/travis/lupka/phpunit-compare-images.svg)](https://travis-ci.org/lupka/phpunit-compare-images)
+[![Packagist](https://img.shields.io/packagist/v/lupka/phpunit-compare-images.svg)](https://packagist.org/packages/lupka/phpunit-compare-images)
+[![[]()icense](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
+
 ## Installation
 
 ```
